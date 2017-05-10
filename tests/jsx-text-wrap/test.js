@@ -93,3 +93,28 @@ x =
       Second
     </div> Third
   </div>
+
+x =
+  <div>
+    First <div>A an element with so much stuff that it will definitely need to wrap because it can't fit on one line</div> Third
+  </div>
+
+x =
+  <div>
+    This is a long example line using a monkey and a giraffe and some more text <var data-var="number">{aVariable}</var> tag in it. It will wrap.
+  </div>
+
+x =
+  <div>
+    This is a long example line usinga <var data-var="number">{aVariable}</var> tag in it. It will wrap.
+  </div>
+
+x =
+  <div>
+    This is a long example line using a <var data-var="number">{aVariable}</var> tag in it. It will wrap.
+  </div>
+
+x =
+  <div>
+    This is a long example line using an <var data-var="number">{aVariable}</var> tag in it. It will wrap.
+  </div>

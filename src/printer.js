@@ -3566,7 +3566,7 @@ function printJSXElement(path, options, print) {
   let forcedBreak = willBreak(openingLines);
 
   const rawJsxWhitespace = options.singleQuote ? "{' '}" : '{" "}';
-  const jsxWhitespace = ifBreak(concat([softline, rawJsxWhitespace, softline]), " ")
+  const jsxWhitespace = ifBreak(concat([softline, rawJsxWhitespace]), " ")
 
   const children = printJSXChildren(path, options, print, jsxWhitespace);
 
